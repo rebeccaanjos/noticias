@@ -4,9 +4,6 @@ const botaoFechar = document.querySelector(".header-mobuile nav button")
 const body = document.querySelecton("body")
 const nav = document.querySelector(".header-mobile nav")
 
-
-console.log(body)
-
 botaoAbrir.addEventListener('click', abrirMenu)
 botaoFechar.addEventListener('click', fecharMenu)
 
